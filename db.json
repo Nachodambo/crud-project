@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Alice",
+      "email": "alice@example.com",
+      "job": "Dentist"
+    },
+    {
+      "id": "2",
+      "name": "Bob",
+      "email": "bob@example.com",
+      "job": "Dish washer"
+    },
+    {
+      "id": "3",
+      "name": "Paul",
+      "email": "paul@example.com",
+      "job": "President"
+    },
+    {
+      "id": "d098",
+      "name": "sdfsdf",
+      "email": "sdf@zczxc.com",
+      "job": "asdasd"
+    },
+    {
+      "id": "f525",
+      "name": "egfdfgd",
+      "email": "sdfsdf@asda.com",
+      "job": "asdads"
+    },
+    {
+      "id": "86f5",
+      "name": "alberto",
+      "email": "Alberto@coleratti",
+      "job": "Gardener"
+    }
+  ]
+}

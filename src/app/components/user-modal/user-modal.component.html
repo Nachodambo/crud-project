@@ -1,0 +1,22 @@
+<h1 class="text-xl font-bold mb-4">{{ title }}</h1>
+
+<form [formGroup]="myForm">
+  <mat-form-field appearance="outline">
+    <mat-label>Name: </mat-label>
+    <input matInput formControlName="name" />
+  </mat-form-field>
+
+  <mat-form-field appearance="outline">
+    <mat-label>Email: </mat-label>
+    <input matInput formControlName="email" />
+  </mat-form-field>
+
+  <mat-form-field appearance="outline">
+    <mat-label>Job position: </mat-label>
+    <input matInput formControlName="job" />
+  </mat-form-field>
+</form>
+
+<div class="mt-5 ">
+  <button class="btn btn-primary rounded-lg ml-5 mb-5" [disabled]="!myForm.valid" (click)="onSubmit()">Create</button>
+</div>

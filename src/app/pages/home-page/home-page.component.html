@@ -1,1 +1,13 @@
-<p>home-page works!</p>,
+<h2 class="font-bold">Home Page</h2>
+@if((userList | async)?.length){
+  <user-table [dataSource]="(userList | async) ?? []"></user-table>
+}
+@else {
+  <span>There is data...</span>
+}
+
+<div class="mt-5">
+  <button class="btn btn-primary rounded-lg mt-5" (click)="openDialog()">
+    Create user
+  </button>
+</div>
